@@ -1,4 +1,4 @@
-Get-NetFirewallRule -DisplayName '%1' |
+Get-NetFirewallRule -DisplayName '$args[0]' |
 Format-Table DisplayName,
 @{Name='Protocol';Expression={($PSItem | Get-NetFirewallPortFilter).Protocol}},
 @{Name='Program';Expression={($PSItem | Get-NetFirewallApplicationFilter).Program}},
