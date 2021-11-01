@@ -1,0 +1,26 @@
+;
+;  Database file cet1020-dnssec1.local.dns for Default zone scope in zone cet1020-dnssec1.local.
+;      Zone version:  5
+;
+
+@                       IN  SOA cet1020-dc-dmc.cet1020-dmc.local. hostmaster.cet1020-dmc.local. (
+                        		5            ; serial number
+                        		900          ; refresh
+                        		600          ; retry
+                        		86400        ; expire
+                        		3600       ) ; default TTL
+
+;
+;  Zone NS records
+;
+
+@                       NS	cet1020-dc-dmc.cet1020-dmc.local.
+
+;
+;  Zone records
+;
+
+server1                 A	10.10.10.1
+server2                 A	10.10.10.2
+server3                 A	10.10.10.3
+server4                 A	10.10.10.4
