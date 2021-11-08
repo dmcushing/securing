@@ -1,6 +1,6 @@
 $gponame=$args[0]
 # Get the GPO Guid
-$Id = (Get-GPO -DisplayName $gponamenot).Id
+$Id = (Get-GPO -DisplayName $gponame).Id
 # Store the output in a (XML) variable
 [xml]$GpoXml = Get-GPOReport -Guid $Id -ReportType Xml
 
