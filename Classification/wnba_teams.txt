@@ -10,3 +10,4 @@ New York Liberty
 Phoenix Mercury
 Seattle Storm
 Washington Mystics
+123-45-6789
